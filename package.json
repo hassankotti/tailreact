@@ -2,7 +2,7 @@
   "name": "tailreact",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://hassankotti.github.io/tailreact",
+  "homepage": "http://hassankotti.github.io/tailreact/index.html",
   "dependencies": {
     "@craco/craco": "^6.2.0",
     "@headlessui/react": "^1.4.0",
