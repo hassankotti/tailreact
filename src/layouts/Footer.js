@@ -9,7 +9,7 @@ const Footer = () => {
             <div className="px-6 py-6 lg:flex-grow-1">
               <div className="block pb-4">
                  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32">
-              <g fill="none" fill-rule="evenodd">
+              <g fill="none" fillRule="evenodd">
                 <path fill="#0062FF" d="M16 0v16H0z" />
                 <path fill="#00F5F0" d="M16 32V16h16z" />
               </g>
@@ -19,82 +19,82 @@ const Footer = () => {
                 © 2020 TailReact , all rights reserved
               </div>
             </div>
-            <div class="text-gray-400 text-sm px-6 py-6 space-y-2 font-light">
-              <div class="font-medium dark:text-gray-200 text-gray-700 uppercase">
+            <div className="px-6 py-6 space-y-2 text-sm font-light text-gray-400">
+              <div className="font-medium text-gray-700 uppercase dark:text-gray-200">
                 Company
               </div>
-              <ul class="flex-col space-y-1">
+              <ul className="flex-col space-y-1">
                 <li>
-                  <a href="#" className="hover:underline">
+                  <a href="#/" className="hover:underline">
                     Dummy text used
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline">
+                  <a href="#/" className="hover:underline">
                     The purpose of lorem
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline">
+                  <a href="#/" className="hover:underline">
                     Filler text can be very useful
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline">
+                  <a href="#/" className="hover:underline">
                     Be on design
                   </a>
                 </li>
               </ul>
             </div>
-            <div class="text-gray-400 text-sm px-6 py-6 space-y-2 font-light">
-              <div class="font-medium dark:text-gray-200 text-gray-700 uppercase">
+            <div className="px-6 py-6 space-y-2 text-sm font-light text-gray-400">
+              <div className="font-medium text-gray-700 uppercase dark:text-gray-200">
                 Company
               </div>
-              <ul class="flex-col space-y-1">
+              <ul className="flex-col space-y-1">
                 <li>
-                  <a href="#" className="hover:underline">
+                  <a href="#/" className="hover:underline">
                     Dummy text used
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline">
+                  <a href="#/" className="hover:underline">
                     The purpose of lorem
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline">
+                  <a href="#/" className="hover:underline">
                     Filler text can be very useful
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline">
+                  <a href="#/" className="hover:underline">
                     Be on design
                   </a>
                 </li>
               </ul>
             </div>
-            <div class="text-gray-400 text-sm px-6 py-6 space-y-2 font-light">
-              <div class="font-medium dark:text-gray-200 text-gray-700 uppercase">
+            <div className="px-6 py-6 space-y-2 text-sm font-light text-gray-400">
+              <div className="font-medium text-gray-700 uppercase dark:text-gray-200">
                 Company
               </div>
-              <ul class="flex-col space-y-1">
+              <ul className="flex-col space-y-1">
                 <li>
-                  <a href="#" className="hover:underline">
+                  <a href="#/" className="hover:underline">
                     Dummy text used
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline">
+                  <a href="#/" className="hover:underline">
                     The purpose of lorem
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline">
+                  <a href="#/" className="hover:underline">
                     Filler text can be very useful
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline">
+                  <a href="#/" className="hover:underline">
                     Be on design
                   </a>
                 </li>
@@ -107,7 +107,7 @@ const Footer = () => {
             <ul className="flex items-center justify-center my-4 space-x-4 lg:justify-between lg:my-0">
               <li>
                 <a
-                  href="#"
+                  href="#/"
                   className="text-sm font-light text-gray-600 dark:text-ebony-400 dark:hover:text-ebony-200 hover:underline"
                 >
                   Contact
@@ -115,7 +115,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#/"
                   className="text-sm font-light text-gray-600 dark:text-ebony-400 dark:hover:text-ebony-200 hover:underline"
                 >
                   About us
@@ -123,7 +123,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#/"
                   className="text-sm font-light text-gray-600 dark:text-ebony-400 dark:hover:text-ebony-200 hover:underline"
                 >
                   FAQ's
@@ -131,7 +131,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#/"
                   className="text-sm font-light text-gray-600 dark:text-ebony-400 dark:hover:text-ebony-200 hover:underline"
                 >
                   Support
@@ -142,7 +142,7 @@ const Footer = () => {
           <div className="">
             <ul className="flex items-center justify-center lg:justify-between">
               <li className="px-4">
-                <a href="#">
+                <a href="#/">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 16 16"
@@ -154,7 +154,7 @@ const Footer = () => {
                 </a>
               </li>
               <li className="px-4">
-                <a href="#">
+                <a href="#/">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 16 16"
@@ -166,7 +166,7 @@ const Footer = () => {
                 </a>
               </li>
               <li className="px-4">
-                <a href="#">
+                <a href="#/">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 16 16"

@@ -1,17 +1,12 @@
-import React from 'react'
+import React from "react";
 import HomePage from "./HomePage";
-import SecondPage from "./SecondPage";
-import { HashRouter,Route } from "react-router-dom";
+import { HashRouter, Route } from "react-router-dom";
 const Main = () => {
-    return (
-       
-            <HashRouter>
-                <Route exact path="/home" component={HomePage} />
-                <Route exact path="/" component={HomePage} />
-                <Route path="/SecondPage" component={SecondPage} />
-            </HashRouter>
+  return (
+    <HashRouter basename="/tailreact">
+      <Route exact path="/" component={HomePage} />
+    </HashRouter>
+  );
+};
 
-    )
-}
-
-export default Main
+export default Main;

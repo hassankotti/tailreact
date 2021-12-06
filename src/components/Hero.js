@@ -1,5 +1,4 @@
 import React from 'react'
-import video_placeholder from "../images/video-placeholder.png"
 import clients_01 from "../images/clients-01.svg"
 import clients_02 from "../images/clients-02.svg"
 import clients_03 from "../images/clients-03.svg"
@@ -17,13 +16,13 @@ const Hero = () => {
             className="py-18"
             alt=""
           />
-          <div class="mx-auto">
-            <ul class="lg:flex grid gap-4 grid-cols-3 lg:items-center lg:justify-between lg:space-y-8 ">
+          <div className="mx-auto">
+            <ul className="grid grid-cols-3 gap-4 lg:flex lg:items-center lg:justify-between lg:space-y-8 ">
               <li>
                 <img
                   src={clients_01}
                   alt="Clients 01"
-                  className="text-gray-600 w-14 dark:textebony-400 lg:w-auto lg:h-auto"
+                  className="text-gray-600 w-14 dark:text-bony-400 lg:w-auto lg:h-auto"
                 />
               </li>
               <li>

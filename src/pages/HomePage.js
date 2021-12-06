@@ -10,7 +10,7 @@ import Navbar from "../layouts/Navbar";
 const HomePage = () => {
   return (
     <Layout>
-      <div class="hero">
+      <div className="hero">
         <Navbar />
         <Hero />
       </div>
