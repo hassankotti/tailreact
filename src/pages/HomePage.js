@@ -1,5 +1,6 @@
 import React from "react";
 import FAQs from "../components/FAQs";
+import Features from "../components/Features";
 import Hero from "../components/Hero";
 import RoadMap from "../components/RoadMap";
 import Team from "../components/Team";
@@ -14,6 +15,7 @@ const HomePage = () => {
         <Navbar />
         <Hero />
       </div>
+        <Features/>
       <Team />
       <FAQs />
       <RoadMap />
