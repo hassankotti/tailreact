@@ -1,20 +1,21 @@
-import React from 'react'
+import React from "react";
 
-const TeamCard = ({ title,name,desc,img}) => {
-    return (
-        <div className="flex-col justify-center items-center">
-            <div className="ng"><div className="team-item-header">
-                <div className="w-auto">
-                    <img src={img} alt={desc}  />
-                </div>
-            </div>
-                <div className="flex-col justify-center items-center text-center p-4">
-                    <h5 className="font-semibold text-base text-white">{name}</h5>
-                    <div className="font-meduim text-sm text-blue-400 mt-4">{title}</div>                    
-                </div>
-            </div>
+const TeamCard = ({ title, name, desc, img }) => {
+  return (
+    <div className="flex-col items-center justify-center">
+      <div className="team-item-header">
+        <div className="w-auto">
+          <img src={img} alt={desc} />
         </div>
-    )
-}
+      </div>
+      <div className="flex-col items-center justify-center p-4 text-center">
+        <h5 className="text-base font-semibold text-gray-600 dark:text-gray-50">
+          {name}
+        </h5>
+        <div className="mt-4 text-sm text-blue-400 font-meduim">{title}</div>
+      </div>
+    </div>
+  );
+};
 
-export default TeamCard
+export default TeamCard;
